@@ -19,4 +19,5 @@ export function sortStrings(arr = [], param = "asc") {
       string1.localeCompare(string2, ["ru", "en"], { caseFirst: "upper" })
     );
   });
+
 }
