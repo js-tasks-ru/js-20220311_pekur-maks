@@ -13,6 +13,8 @@ export function sortStrings(arr = [], param = "asc") {
 
   const derection = derections[param];
 
+  console.log(derection);
+
   return [...arr].sort((string1, string2) => {
     return (
       derection *
